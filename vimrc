@@ -1,9 +1,12 @@
 :set hlsearch
 :set tabstop=4
-:set expandtab
+:set noexpandtab
+:set shiftwidth=4
 :set nu
 :set cc=80
 
+" Some mappings to make life easier
+:inoremap jj <Esc>
 
 " To remove existing tabs
 ":retab
