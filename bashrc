@@ -7,10 +7,17 @@ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib/
 export LDFLAGS="-L /usr/local/lib"
 export CFLAGS="-I /usr/local/include"
 
-# Path to the bash it configuration
-export BASH_IT="/home/swarali/.bash_it"
+# If not running interactively, don't do anything
+case $- in
+  *i*) ;;
+    *) return;;
+esac
 
-# Lock and Load a custom theme file
+# Path to the bash it configuration
+export BASH_IT="$HOME"/.bash_it
+
+# Lock and Load a custom theme file.
+# Leave empty to disable theming.
 # location /.bash_it/themes/
 export BASH_IT_THEME='pure'
 
