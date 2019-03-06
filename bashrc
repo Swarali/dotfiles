@@ -1,11 +1,8 @@
 alias goprojects='cd ~/go/src/'
-export PAIRING_COSI_PROJECT='/home/swarali/go/src/student_18_pairingcosi/blsftcosi'
-export BLSFTCOSI='/home/swarali/go/src/github.com/dedis/student_18_blsftcosi/blsftcosi'
-export FTCOSI='/home/swarali/go/src/github.com/dedis/cothority/ftcosi'
-export SEMESTERFOLDER='/home/swarali/Documents/Laptop/Sem3_EPFL'
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib/
 export LDFLAGS="-L /usr/local/lib"
 export CFLAGS="-I /usr/local/include"
+export GOPATH="$HOME"/go
 
 # If not running interactively, don't do anything
 case $- in
@@ -32,7 +29,7 @@ export GIT_HOSTING='git@git.domain.com'
 unset MAILCHECK
 
 # Change this to your console based IRC client of choice.
-export IRC_CLIENT='irssi'
+export IRC_CLIENT='weechat'
 
 # Set this to the command you use for todo.txt-cli
 export TODO="t"
