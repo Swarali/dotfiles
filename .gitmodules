@@ -19,3 +19,6 @@
 [submodule "vim/pack/plugins/start/vim-clojure-highlight"]
 	path = vim/pack/plugins/start/vim-clojure-highlight
 	url = https://github.com/guns/vim-clojure-highlight.git
+[submodule "vim/pack/plugins/start/vim-better-whitespaces"]
+	path = vim/pack/plugins/start/vim-better-whitespaces
+	url = https://github.com/ntpeters/vim-better-whitespace
