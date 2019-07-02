@@ -4,3 +4,18 @@
 [submodule "vim/pack/plugins/start/c-support"]
 	path = vim/pack/plugins/start/c-support
 	url = https://github.com/WolfgangMehner/c-support
+[submodule "vim/pack/plugins/start/rainbow_parentheses.vim"]
+	path = vim/pack/plugins/start/rainbow_parentheses.vim
+	url = https://github.com/junegunn/rainbow_parentheses.vim.git
+[submodule "vim/pack/plugins/start/vim-clojure-static"]
+	path = vim/pack/plugins/start/vim-clojure-static
+	url = https://github.com/guns/vim-clojure-static.git
+[submodule "vim/pack/plugins/start/vim-fireplace"]
+	path = vim/pack/plugins/start/vim-fireplace
+	url = https://github.com/tpope/vim-fireplace.git
+[submodule "vim/pack/plugins/start/vim-sexp"]
+	path = vim/pack/plugins/start/vim-sexp
+	url = https://github.com/guns/vim-sexp
+[submodule "vim/pack/plugins/start/vim-clojure-highlight"]
+	path = vim/pack/plugins/start/vim-clojure-highlight
+	url = https://github.com/guns/vim-clojure-highlight.git

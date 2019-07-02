@@ -1,4 +1,5 @@
 alias goprojects='cd ~/go/src/'
+export KUBECONFIG='/Users/swarali/exoscale/kubeform/kubeconfig'
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib/
 export LDFLAGS="-L /usr/local/lib"
 export CFLAGS="-I /usr/local/include"
