@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# set up various path variables
+export GOPATH=$HOME/go
+
+export JAVA_HOME=$(/usr/libexec/java_home)
+
+export PYENV_VERSION=3.7.3
+
+if command -v pyenv 1> /dev/null 2>&1;
+then
+  eval "$(pyenv init -)"
+fi
