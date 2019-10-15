@@ -1,18 +1,19 @@
-set nocompatible                " Enables us Vim specific features
-set hlsearch                    " Highlight found searches
-set tabstop=2                   " Number of visual spaces per TAB
-set expandtab                   " Tabs are spaces
-set shiftwidth=2                " Indentation on >>, << or ==
-set nu                          " Show line numbers
-set cc=80                       " Highlight column 80
-set foldmethod=syntax           " Fold method
-set ignorecase                  " Search case insensitive...
-set smartcase                   " ... but not it begins with upper case
+set nocompatible                  " Enables us Vim specific features
+set hlsearch                      " Highlight found searches
+set tabstop=2                     " Number of visual spaces per TAB
+set expandtab                     " Tabs are spaces
+set shiftwidth=2                  " Indentation on >>, << or ==
+set nu                            " Show line numbers
+set cc=80                         " Highlight column 80
+set foldmethod=syntax             " Fold method
+set ignorecase                    " Search case insensitive...
+set smartcase                     " ... but not it begins with upper case
+set tags=tags,./tags,.git/tags;~  " Search tags file till home dir
 
-filetype plugin indent on       " Enable filetype detection
-syntax on                       " Enable syntax
-set splitbelow                  " Vertical windows should be split to right
-set splitright                  " Horizontal windows should split to bottom
+filetype plugin indent on         " Enable filetype detection
+syntax on                         " Enable syntax
+set splitbelow                    " Vertical windows should be split to right
+set splitright                    " Horizontal windows should split to bottom
 
 " Make split panes navigation easier
 nnoremap <C-J> <C-W><C-J>
@@ -27,7 +28,7 @@ noremap j gj
 noremap k gk
 
 " Cursor does not move to the next or previous search of the word
-nnoremap * *N       
+nnoremap * *N
 nnoremap # #N
 
 " Get out of the insert mode faster
