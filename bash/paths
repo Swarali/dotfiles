@@ -7,6 +7,13 @@ export JAVA_HOME=$(/usr/libexec/java_home)
 
 export PYENV_VERSION=3.7.3
 
+# set up local include and load paths
+export CPATH=/usr/local/include
+
+export LD_LIBRARY_PATH=/usr/local/lib
+
+export LIBRARY_PATH=/usr/local/lib
+
 if command -v pyenv 1> /dev/null 2>&1;
 then
   eval "$(pyenv init -)"
