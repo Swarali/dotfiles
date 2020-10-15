@@ -22,3 +22,6 @@
 [submodule "vim/pack/plugins/start/vim-better-whitespaces"]
 	path = vim/pack/plugins/start/vim-better-whitespaces
 	url = https://github.com/ntpeters/vim-better-whitespace
+[submodule "vim/pack/plugins/start/linediff"]
+	path = vim/pack/plugins/start/linediff
+	url = git://github.com/AndrewRadev/linediff.vim.git
