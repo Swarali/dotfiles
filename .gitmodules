@@ -25,3 +25,6 @@
 [submodule "vim/pack/plugins/start/linediff"]
 	path = vim/pack/plugins/start/linediff
 	url = git://github.com/AndrewRadev/linediff.vim.git
+[submodule "vim/pack/plugins/start/diffchar"]
+	path = vim/pack/plugins/start/diffchar
+	url = https://github.com/rickhowe/diffchar.vim.git
